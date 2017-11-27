@@ -1,0 +1,311 @@
+
+
+.login-background{
+    position: absolute;
+    background:url('Background.png') no-repeat center center;
+    height:100%;
+    width:100%;
+    background-size:100% 100%;
+    z-index:-10;
+}
+
+
+
+
+.login-title{
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top:30px;
+}
+
+.login-subTitle{
+    text-align: center;
+    font-weight: 300;
+    font-size: 45px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top:20px;    
+}
+
+.login-com{
+    display: inline;
+    color:red;
+}
+
+.login-table-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:80px;
+}
+.login-table{
+    position: relative;
+ padding:0 50px 15px ;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.login-table-title{
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:40px;
+    line-height: 1.6;
+    color:white;
+   
+    margin-top:15px;
+}
+
+.login-table-title::after{
+    content:"";
+    display:block;
+    margin-top:10px;
+    height:3px;
+    
+    background-color:white;
+}
+
+.login-table-username{
+    margin-top:50px;
+}
+
+.login-table-username p{
+    display:inline;
+    margin-right:30px;
+    font-size:25px;
+    color:white;
+    
+}
+
+.login-table-username input{
+    outline:none;
+    padding-left:10px;
+    border-radius: 5px;
+    display:inline;
+    font-size:25px;
+}
+
+.login-table-passwords{
+    margin-top:50px;
+}
+
+.login-table-passwords p{
+    display:inline;
+    margin-right:56px;
+    font-size:25px;
+    color:white;
+    
+}
+
+.login-table-passwords input{
+    padding-left:10px; 
+    outline:none;
+    border-radius: 5px;
+    display:inline;
+    font-size:25px;
+}
+
+
+.login-table-submit{
+    width:100%;
+    height:50px;
+    
+}
+.login-table-submit-word{
+    float: right;
+    margin-top:20px;
+    cursor: pointer;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    line-height:1.5;
+    color:white;
+}
+
+.login-table-submit-word::after{
+    content:"";
+    display:block;
+    width:0px;
+    height:5px;
+    background-color: #fff;
+    transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+}
+.login-table-submit-word:hover::after{
+    width:100%;
+}
+
+.CopyRight-login{ 
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.CopyRight-login p{
+    text-align: center;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.2;
+    color:#fff;
+}
+
+
+.read_before{
+    opacity: 0;
+    display: none;
+    position: fixed;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1000;
+    width: 900px;
+    height: 650px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.read_after{
+    opacity: 1;
+    display: block;
+    position: fixed;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 1000;
+    width: 900px;
+    height: 650px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.read-cover_before {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 500;
+    top: 0;
+    left: 0;
+}
+.read-cover_after {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 500;
+    top: 0;
+    left: 0;
+}
+
+.read-title{
+    text-align: center;
+    font-size:50px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin-top:15px;
+
+}
+.read-title::after{
+    content:"";
+    display:block;
+    margin-left:100px;
+    margin-top: 15px;
+    height:3px;
+    width:700px;
+    background-color:#000;
+}
+
+.read-content{
+    text-align: left;
+    font-size:23px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    margin-left:100px;
+    margin-top:15px;
+}
+.read-content::after{
+    content:"";
+    display:block;
+    margin-top: 15px;
+    height:3px;
+    width:700px;
+    background-color:#000;
+}
+
+
+.read-join{
+    cursor: pointer;
+    margin-top:25px;
+    text-align: center;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:40px;
+    color:red;
+}
+
+.read-join Link{
+
+}
+
+.read-join::after{
+    content:"";
+    display:block;
+    margin-left:250px;
+    margin-top:5px;
+    height:3px;
+    width:0px;
+    background-color:red;
+    transition:all 0.5s ease-in-out;
+}
+
+.read-join:hover::after{
+    width:380px;
+}
+
+.err_before{
+    display: none;
+    margin-left:200px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:30px;
+    color:red;
+}
+
+.err_after{
+    margin-top:-40px;
+    display: block;
+    line-height:0.5;
+    margin-left:200px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:30px;
+    color:red;
+}
+
+.welcome-team{
+    display:inline-block;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:25px;
+    color:#000;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.team-name{
+    display: inline;
+    color:red;
+}
+.oj-name{
+    display:inline;
+    margin-left:30px;
+}
+
+.oj-name>div{
+    display: inline;
+    color:red;
+}
+.oj-password{
+    display:inline;
+    margin-left:30px;
+}
+.oj-password>div{
+    display: inline;
+    color:red;
+}

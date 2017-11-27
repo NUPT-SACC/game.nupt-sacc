@@ -1,0 +1,7 @@
+{
+      "question": [{
+          "question_content": "下面那种语言最接近lisp？",
+          "question_options": ["c", "js", "python", "haskell"]
+      }],
+       "saved_answer": [0]
+  }

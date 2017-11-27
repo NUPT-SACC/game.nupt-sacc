@@ -1,0 +1,140 @@
+
+.result-background{
+    position: absolute;
+    background:url('bg10.jpg') no-repeat center center;
+    height:100%;
+    width:100%;
+    background-size:100% 100%;
+    z-index:-10;
+}
+
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+
+.result-table{
+    border-radius: 10px;
+    margin-top:50px;
+    padding:10px;
+    width:60%;
+    height:60%;
+    background-color:rgba(0,0,0,0.5)
+}
+
+
+.welcome-team-result{
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:400;
+    color:#fff;
+    font-size:30px;
+    line-height:1.2;
+}
+.oj-name{
+    margin-right:30px;
+}
+.oj-password{
+
+}
+.result-table-content{
+    text-align: center;
+    color:white;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top:20px;
+}
+
+.result-table-content>p{
+    margin-top:60px;
+    font-size:50px;
+}
+
+.result-table-content>div{
+    margin-top:80px;
+    font-size:25px;
+}
+
+.result-introduce{
+    position: absolute;
+    bottom:100px;
+    width:100%;
+    text-align: center;
+     display: inline-block;
+}
+
+.com-web{
+    display: inline-block;
+    text-align: center;
+    /*margin-left:15%;*/
+    color:white;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+}
+.com-web-img{
+    display: inline-block;
+    height:150px;
+    width:150px;
+    background:url('./web-com.png') no-repeat center center;
+    background-size:100% 100%;
+}
+
+.com-weixin{
+    display: inline-block;
+    margin-left:10%;
+    text-align: center;
+    color:white;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+}
+
+.com-weixin-img{
+    display: inline-block;
+    height:150px;
+    width:150px;
+    background:url('weixin-com.jpg') no-repeat center center;
+    background-size:100% 100%;
+}
+.sacc-weixin{
+    display: inline-block;
+    margin-left:10%;
+    text-align: center;
+    color:white;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    
+}
+.sacc-weixin>p{
+    width:300px;
+}
+
+.sacc-weixin-img{
+    display: inline-block;
+    height:150px;
+    width:150px;
+    background:url('weixin-sacc.jpg') no-repeat center center;
+    background-size:100% 100%;
+}
+
+
+
+
+
+.CopyRight-result{ 
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.CopyRight-result p{
+    text-align: center;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.2;
+    color:#fff;
+}
+

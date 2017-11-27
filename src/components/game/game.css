@@ -1,0 +1,149 @@
+.div-ssat {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    padding: 10px;
+    background-color: #F5F6EB;
+}
+
+.questions-container {
+    margin-top: 100px 5%;
+    padding: 20px;
+    background-color: #DDF0ED;
+}
+
+.clock-container {
+    display: inline;
+}
+
+.clock-container h2 {
+    display: inline;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top:50px;
+}
+
+pre code {
+    font-family: consolas;
+}
+
+.game-container {
+    height: 100%;
+    width: 100%;
+    background-color: #DDF0ED;
+}
+
+.game-container pre {
+    background: #DAFACA;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+.questions-container {
+    margin: 90px 20%;
+}
+
+.single-question,.multiple-question {
+    background-color: #C3BED4;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.radiocheck {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.multiple-container{
+    padding: 3px;
+}
+
+.question_content {
+    text-align: left;
+    margin-left: 4px;
+    margin-top: 6px;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top:3px;
+}
+
+.btn-save,.btn-submit{
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 0px;
+    margin: null;
+    border-radius: 5px;
+    background-color: #F3D7B5;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #495A80;
+
+}
+
+.btn-submit {
+    background-color: #F27535;
+    margin: 20px auto;
+    width: 200px;
+    color: #373E40;
+}
+
+@keyframes fadeIn
+{
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeOut
+{
+    from {opacity: 1}
+    to {opacity: 0}
+}
+
+
+
+.save-,.save-true,.save-false {
+    display: inline;
+    margin-left: 10px;
+    opacity: 0;
+}
+
+
+.save-true {
+    animation: fadeIn 1s;
+}
+
+.save-false {
+     animation: fadeOut 1s;
+}
+
+.div-games {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.div-a {
+    display: block;
+}
+
+.red-true{
+    color: red;
+}
